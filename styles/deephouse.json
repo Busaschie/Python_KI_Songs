@@ -1,0 +1,56 @@
+{
+    "gender":           "female",
+    "language":         "english",
+    "alphabet":         "english",
+    "topics":           ["metropole", "long nights", "no sleep", "club is the living room", "chasing the forbidden"],
+    "semantic":         "strong usage of gen-z words, strong clubbing lifestyle symbolism",
+    "genre":            "deep house",
+    "subgenre":         "modern deep tech house",
+    "suno":             {
+        "model":                "chirp-v5",
+        "prompt":               "Deep House, Melodic Tech House, Evil FM Square Bassline, Cool Female Voice Singing, Club Banger, Energetic Synth Brass Stabs, Sad High Rhode Chords",
+        "custom":               true,
+        "instrumental":         false,
+        "title":                "Cim-Night",
+        "style":                "Deep House, Melodic Tech House, Evil FM Square Bassline, Cool Female Voice Singing, Club Banger, Energetic Synth Brass Stabs, Sad High Rhode Chords",
+        "vocal_gender":         "f"
+    },
+    "forbidden-words":  ["neon", "flicker"],
+    "formatting":       ["line break after each 4 line stanza"],
+    "finalsteps":       ["4 most powerful rhymes wrapped in round brackets"],
+    "onomatopeia":      ["modern simple onomatopeia suitable for singing"],
+    "structure": {
+        "intro":    {
+            "caption": "[INTRO: angelic female voice like {artist}, no drums]",
+            "content": "repeat(4, 1 line of '...')"
+        },
+        "verse1":   {
+            "caption": "[VERSE: cool female voice like {artist}, minimalistic melodic low fm-squaresynth bass, groovy percussions]",
+            "content": "2x 4 short lines of lyrics"
+        },
+        "bridge1":  {
+            "caption": "[BRIDGE: uplifting snare rhythm built-up and riser, emotional arp-synth melody]",
+            "content": "4 short lines of lyrics"
+        },
+        "hook1":    {
+            "caption": "[VERSE: emotional female voice singing like {artist}, energetic multi-octaval groovy futurehouse synthmelody with wooden-like characteristic]",
+            "content": "3 lines of '...' + 1 song theme word in 4th line"
+        },
+        "verse2":   {
+            "caption": "[VERSE: cool female voice like {artist}, minimalistic melodic low fm-squaresynth bass, groovy percussions]",
+            "content": "2x 4 short lines of lyrics"
+        },
+        "bridge2":  {
+            "caption": "[BRIDGE: uplifting snare rhythm built-up and riser, emotional arp-synth melody]",
+            "content": "4 short lines of lyrics"
+        },
+        "hook2":    {
+            "caption": "[VERSE: emotional female voice singing like {artist}, energetic multi-octaval groovy futurehouse synthmelody with wooden-like characteristic, powerchord synth-brass stabs]",
+            "content": "repeat(2, 3 short lines '...' + 1 song theme word in 4th line)"
+        },
+        "outro":    {
+            "caption": "[OUTRO: angelic female voice like {artist}, no drums]",
+            "content": "4 short lines of onomatopeia"
+        }
+    }
+}

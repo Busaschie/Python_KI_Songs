@@ -1,0 +1,56 @@
+{
+    "gender":           "female",
+    "language":         "spanish",
+    "alphabet":         "spanish",
+    "topics":           ["fight the enemy", "no mercy", "survival", "dominance", "untouchable team"],
+    "semantic":         "powerful aggressive words and combat metaphors",
+    "genre":            "drill",
+    "subgenre":         "latin drill",
+    "suno":             {
+        "model":                "chirp-v5",
+        "prompt":               "Evil Drill, Aggressive Latin Trap, Hot Female Rap Voice, Steel Drums, Pan Flute, Powerful Low Brass Stab, Diverse Rhythmic Percussion Flex",
+        "custom":               true,
+        "instrumental":         false,
+        "title":                "Cim-Combat",
+        "style":                "Evil Drill, Aggressive Latin Trap, Hot Female Rap Voice, Steel Drums, Pan Flute, Powerful Low Brass Stab, Diverse Rhythmic Percussion Flex",
+        "vocal_gender":         "f"
+    },
+    "forbidden-words":  ["stars", "shadows", "echoes", "sky"],
+    "formatting":       ["line break after each 4 line stanza"],
+    "finalsteps":       ["4 most powerful rhymes wrapped in round brackets"],
+    "onomatopeia":      ["vivacious and thrilling adlibs representing weapon sounds"],
+    "structure": {
+        "intro":    {
+            "caption": "[INTRO: hot female voice like {artist}, no drums]",
+            "content": "repeat(4, 1 line of '...')"
+        },
+        "verse1":   {
+            "caption": "[VERSE: hot female voice like {artist}, pan flute]",
+            "content": "2x 4 lines of lyrics"
+        },
+        "bridge1":  {
+            "caption": "[BRIDGE: hot female voice like {artist}, high-cut filter automation on instrumental]",
+            "content": "4 lines of lyrics"
+        },
+        "hook1":    {
+            "caption": "[HOOK: hot female voice like {artist}, steeldrum melody]",
+            "content": "4 lines of lyrics and onomatipeia"
+        },
+        "verse2":   {
+            "caption": "[VERSE: hot female voice like {artist}, pan flute]",
+            "content": "2x 4 lines of of lyrics"
+        },
+        "bridge2":  {
+            "caption": "[BRIDGE: hot female voice like {artist}, high-cut filter automation on instrumental]",
+            "content": "4 lines of lyrics"
+        },
+        "hook2":    {
+            "caption": "[HOOK: hot female voice like {artist}, steeldrum melody]",
+            "content": "repeat(2, 4 lines of lyrics and onomatipeia)"
+        },
+        "outro":    {
+            "caption": "[OUTRO: hot female voice like {artist}, no drums]",
+            "content": "repeat(4, 1 line of '...')"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "gender":           "female",
+    "language":         "german",
+    "alphabet":         "german",
+    "topics":           ["futurism", "dystopia", "artificial intelligence", "rebellion"],
+    "semantic":         "strong usage of computer/tech wording in a metaphorical sense",
+    "genre":            "techno",
+    "subgenre":         "cyberpunk",
+    "suno":             {
+        "model":                "chirp-v5",
+        "prompt":               "Cyberpunk Evil, Techno, Dubstep, Futuristic, Emotional Angelic Female Voice, Powerful Drums, Complextro Synths",
+        "custom":               true,
+        "instrumental":         false,
+        "title":                "Cim-Topia",
+        "style":                "Cyberpunk Evil, Techno, Dubstep, Futuristic, Emotional Angelic Female Voice, Powerful Drums, Complextro Synths",
+        "vocal_gender":         "f"
+    },
+    "forbidden-words":  ["stars", "shadows", "echoes", "sky"],
+    "formatting":       ["line break after each 4 line stanza"],
+    "finalsteps":       ["4 most powerful rhymes wrapped in round brackets"],
+    "onomatopeia":      ["computer sfx glitch style"],
+    "structure": {
+        "intro":    {
+            "caption": "[INTRO: angelic female voice like {artist}, floating synths pad chords, no drums]",
+            "content": "4 lines of onomatopeia"
+        },
+        "verse1":   {
+            "caption": "[VERSE: angelic female voice like {artist}, evil arpgregiate square synth",
+            "content": "2x 4 lines of lyrics"
+        },
+        "bridge1":  {
+            "caption": "[BRIDGE: low robotized synthvoice, complex build-up with epic cinematic storm drums]",
+            "content": "4 lines of lyrics"
+        },
+        "hook1":    {
+            "caption": "[HOOK: vocal sfx, powerful distorted complextro wobs, lasershots]",
+            "content": "4 lines of lyrics"
+        },
+        "verse2":   {
+            "caption": "[VERSE: angelic female voice like {artist}, evil arpgregiate square synth",
+            "content": "2x 4 lines of of lyrics"
+        },
+        "bridge2":  {
+            "caption": "[BRIDGE: low robotized synthvoice, complex build-up with epic cinematic storm drums]",
+            "content": "4 lines of lyrics"
+        },
+        "hook2":    {
+            "caption": "[HOOK: vocal sfx, powerful distorted complextro wobs, lasershots]",
+            "content": "repeat(2, 4 lines of lyrics)"
+        },
+        "cpart":    {
+            "caption": "[C-PART: angelic female voice like {artist}, powerful legato leadsynth chords, no drums]",
+            "content": "4 lines of lyrics: plot twist"
+        },
+        "hook3":    {
+            "caption": "[HOOK: vocal sfx, climax with melo-energetic leadsynth chordstabs, powerful distorted complextro wobs, lasershots]",
+            "content": "repeat(2, 4 lines of lyrics)"
+        },
+        "outro":    {
+            "caption": "[OUTRO: angelic female voice like {artist}, floating synths pad chords, no drums]",
+            "content": "4 lines of onomatopeia"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "gender":           "male",
+    "language":         "german",
+    "alphabet":         "latin",
+    "topics":           ["berlin metropole", "bratans und bratinas", "schnelles geld", "lange naechte im studio", "autotune und erfolg"],
+    "semantic":         "strong usage of deutschrap slang, street lifestyle symbolism, iconic adlibs, mix of energetic brag and catchy hooklines",
+    "genre":            "german rap",
+    "subgenre":         "melodic pop trap",
+    "suno":             {
+        "model":                "chirp-v5",
+        "prompt":               "German Pop Rap, Melodic Trap, Autotune Male Vocals, Energetic Street Vibe, Catchy Hook, Fast Flow, Heavy 808 Bass, Synth Brass Stabs",
+        "custom":               true,
+        "instrumental":         false,
+        "title":                "Bratan Vibe",
+        "style":                "German Pop Rap, Melodic Trap, Autotune Male Vocals, Energetic Street Vibe, Catchy Hook, Fast Flow, Heavy 808 Bass, Synth Brass Stabs",
+        "vocal_gender":         "m"
+    },
+    "forbidden-words":  ["police", "fake"],
+    "formatting":       ["line break after each 4 line stanza"],
+    "finalsteps":       ["4 most powerful rhymes wrapped in round brackets"],
+    "onomatopeia":      ["bra", "le-le-le", "bratan"],
+    "structure": {
+        "intro":    {
+            "caption": "[INTRO: energetic autotuned male voice like Capital Bra, iconic adlibs, atmospheric synth pad, no heavy drums]",
+            "content": "repeat(4, 1 line of '...')"
+        },
+        "verse1":   {
+            "caption": "[VERSE: aggressive and fast autotuned male flow like Capital Bra, heavy 808 bass, fast hi-hats, energetic street vibe]",
+            "content": "2x 4 short lines of lyrics"
+        },
+        "bridge1":  {
+            "caption": "[BRIDGE: melodic vocal buildup with rising snares, pitch-shifted autotune, emotional synth melody]",
+            "content": "4 short lines of lyrics"
+        },
+        "hook1":    {
+            "caption": "[HOOK: catchy melodic pop-rap chorus singing like Capital Bra, driving trap beat, synth-brass stabs, maximum energy]",
+            "content": "3 lines of '...' + 1 song theme word in 4th line"
+        },
+        "verse2":   {
+            "caption": "[VERSE: aggressive and fast autotuned male flow like Capital Bra, heavy 808 bass, fast hi-hats, energetic street vibe]",
+            "content": "2x 4 short lines of lyrics"
+        },
+        "bridge2":  {
+            "caption": "[BRIDGE: melodic vocal buildup with rising snares, pitch-shifted autotune, emotional synth melody]",
+            "content": "4 short lines of lyrics"
+        },
+        "hook2":    {
+            "caption": "[HOOK: catchy melodic pop-rap chorus singing like Capital Bra, driving trap beat, synth-brass stabs, maximum energy, layered adlibs]",
+            "content": "repeat(2, 3 short lines '...' + 1 song theme word in 4th line)"
+        },
+        "outro":    {
+            "caption": "[OUTRO: fading autotuned male voice like Capital Bra, iconic signature adlibs, gentle synth fadeout]",
+            "content": "4 short lines of onomatopeia"
+        }
+    }
+}

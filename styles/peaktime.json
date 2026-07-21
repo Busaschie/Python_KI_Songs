@@ -1,0 +1,68 @@
+{
+    "gender":           "female",
+    "language":         "english",
+    "alphabet":         "english",
+    "topics":           ["universe", "galaxy", "energy", "void", "dark matter", "gravity", "entropy", "interference", "infinity", "velocity"],
+    "semantic":         "profound relations, inherent paradoxes, powerful symbolism",
+    "genre":            "futuristic driving techno",
+    "subgenre":         "galatic peak time techno",
+    "suno":             {
+        "model":                "chirp-v5",
+        "prompt":               "Dark Driving Techno, Galactic Peak Time Techno, Hard Powerful On-Beat Kick-Drums, Female Voice, Acid-Techno TB-303 Synth, Futuristic Synth-Arps",
+        "custom":               true,
+        "instrumental":         false,
+        "title":                "Cim-Tropy",
+        "style":                "Dark Driving Techno, Galactic Peak Time Techno, Hard Powerful On-Beat Kick-Drums, Female Voice, Acid-Techno TB-303 Synth, Futuristic Synth-Arps",
+        "vocal_gender":         "f"
+    },
+    "forbidden-words":  ["neon", "flicker"],
+    "formatting":       ["line break after each 4 line stanza"],
+    "finalsteps":       ["last line of bridges wrapped into round brackets"],
+    "onomatopeia":      ["completely avoid onomatopeia and sfx", "do not write any onomatopeia"],
+    "structure": {
+        "intro":    {
+            "caption": "[INTRO: low-cut on-beat kickdrums, mysteriously whispering female voice, minimalistic muted synth-arps, smooth ducking fm-noise slowly-uplifting]",
+            "content": "repeat(1, 8 lines of '...')"
+        },
+        "verse1":    {
+            "caption": "[VERSE: hard powerful on-beat bassdrums, mysteriously whispering female voice, fast aggressive acid tb-303 arp-melody with filter-reso lfo and slowly increasing highcut-freq, reverb industrial-stabs, off-beat closed-hats]",
+            "content": "repeat(4, two_lines(lyrics, '...')"
+        },
+        "bridge1":   {
+            "caption": "[BRIDGE: no drums, emotionally singing female voice, futuristic synth-arps with slowly-downshifting filter-freq]",
+            "content": "repeat(1, 8 lines of '...')"
+        },
+        "buildup1":  {
+            "caption": "[BUILDUP: emotionally singing female voice, energetic detuned powerlead-synthbass muted then slowly intensifying various synth-parameters, uplifting snare rhythm and riser]",
+            "content": "repeat(1, 8 lines of '...')"
+        },
+        "hook1":    {
+            "caption": "[HOOK: very hard powerful on-beat kickdrums bass-intense, low hard distorted fm-acidstab wobs, energetic detuned hard powerlead-synthbass, galactic arp-synth plucks, off-beat open-hats]",
+            "content": "repeat(1, 8 lines of '...')"
+        },
+        "preverse":    {
+            "caption": "[PREVERSE: low-cut on-beat kickdrums, mysteriously whispering female voice, minimalistic muted emotional synth-arps]",
+            "content": "repeat(4, two_lines(lyrics, '...')"
+        },
+        "verse2":    {
+            "caption": "[VERSE: hard powerful on-beat bassdrums, emotionally singing female voice, fast aggressive acid tb-303 arp-melody with filter-reso lfo and slowly increasing highcut-freq, reverb industrial-stabs, off-beat closed-hats]",
+            "content": "repeat(4, two_lines(lyrics, '...')"
+        },
+        "bridge2":   {
+            "caption": "[BRIDGE: no drums, mysteriously whispering female voice like {artist} floating futuristic emotional synth-arps with slowly-downshifting filter-freq]",
+            "content": "repeat(1, 8 lines of '...')"
+        },
+        "buildup2":  {
+            "caption": "[BUILDUP: emotionally singing female voice, energetic detuned powerlead-synthbass muted then slowly intensifying various synth-parameters, uplifting snare rhythm and riser]",
+            "content": "repeat(4, two_lines(lyrics, '...')"
+        },
+        "hook2":    {
+            "caption": "[HOOK: very hard powerful on-beat kickdrums bass-intense, low hard distorted fm-acidstab wobs, energetic detuned hard powerlead-synthbass, galactic arp-synth plucks, off-beat open-hats]",
+            "content": "repeat(1, 8 lines of '...')"
+        },
+        "outro":    {
+            "caption": "[OUTRO: low-cut on-beat kickdrums, mysteriously whispering female voice, minimalistic muted synth-arps, smooth ducking fm-noise slowly-uplifting]",
+            "content": "repeat(4, two_lines(lyrics, '...')"
+        }
+    }
+}
